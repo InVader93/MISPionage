@@ -144,7 +144,7 @@ On Windows, the script uses `schtasks` to schedule the task.
 `schtasks /create /tn "MISPionage Task" /tr "python <path_to_script>" /sc once /st <HH:MM> /f`
 
 -   **/create**: Create a new scheduled task.
--   **/tn "Qcentaur Task"**: Task name.
+-   **/tn "MISPionage Task"**: Task name.
 -   **/tr "python <path_to_script>"**: The command to run (Python script).
 -   **/sc once**: Run only once at the specified time.
 -   **/st HH:MM**: Start time in 24-hour format.
@@ -186,7 +186,7 @@ You can remove a specific cron job by editing the crontab or using the following
 
 `crontab -l | grep -v 'MISPionage Task' | crontab -`
 
-This will remove the line related to the Qcentaur task from the crontab.
+This will remove the line related to the MISPionage task from the crontab.
 
 * * * * *
 
