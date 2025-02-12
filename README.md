@@ -14,8 +14,9 @@ MISPionage is a Python script designed to automate the process of fetching Indic
 - **Task Scheduling:** Schedule the script to run automatically on Windows (via Task Scheduler) or Linux (via cron jobs). 
 
 ## Requirements 
-- **Python 3.x:** Ensure Python 3.6 or higher is installed. 
-- **Required Libraries:** 
+- **Python 3.x:** Ensure Python 3.6 or higher is installed.
+
+**Required Libraries:**
 - `requests` 
 - `csv` 
 - `json` 
