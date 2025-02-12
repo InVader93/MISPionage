@@ -67,7 +67,7 @@ Command Line Arguments
     Set the domain ID for the reference set in QRadar. Default is `SHARED`.
 
 -   `--fields`:\
-    Specify additional fields to return in the response. Leave empty for now, as it is optional.
+    Specify additional fields to return in the response. Not implemented for now, as it is optional, but maybe in the next version.
 
 -   `--help`:\
     Displays this help message.
